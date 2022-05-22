@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;300;400;800&family=Poppins&display=swap');
+
+.container{
+    margin:auto;
+    margin-top:50px;
+    align-content: center;
+    width:35%;
+    height:330px;;
+    background-color: hsl(244, 38%, 16%)
+}
+
+.logo {
+   height:330px;
+   width:60%;
+   object-fit: cover;
+   filter:grayscale(100%) brightness(60%) sepia(30%) hue-rotate(-100deg) saturate(700%) contrast(1);
+}
+.box{
+    display: flex;
+}
+
+.mainContent{
+    padding:55px 70px 55px 55px;
+}
+.heading{
+    color:white;
+}
+.insights{
+    color:purple;
+}
+.para{
+    margin-top:20px;
+    color:hsla(0, 0%, 100%, 0.75)
+}
+.numbers{
+    margin-top:30px;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.words{
+    color:white;
+    display:flex;
+    font-size: 10px;
+    color:hsla(0, 0%, 100%, 0.6);
+}
+
+.word{
+    margin-left:130px;
+}
+.word.one{
+    margin-left:2px;
+}
